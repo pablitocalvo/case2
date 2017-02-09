@@ -102,8 +102,20 @@ for (int k=1 ; k<= numeroPagine ; k++ )
 			System.out.println("      <PREZZO>");
 			System.out.println("             "+prezzo);
 			System.out.println("      </PREZZO>");
+			
+			String stanze = annuncio.select(".listing-features__rooms").html().replaceAll("[^0-9]", "");
+			
+			System.out.println("      <STANZE>");
+			System.out.println("             "+stanze);
+			System.out.println("      </STANZE>");
+			
+			String mq = annuncio.select(".listing-features__surface").select("strong").html().replaceAll("[^0-9]", "");
+			
+			System.out.println("      <MQ>");
+			System.out.println("             "+mq);
+			System.out.println("      </MQ>");
 		
-			if (true) continue;	
+				
 
 			System.out.println("<CASA>");
 					
