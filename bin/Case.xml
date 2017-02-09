@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<case>
+	<casa>
+		<idCasa>
+		000001
+		</idCasa>
+		
+		<annunci>
+			<url>
+			</url>
+			<url>
+			</url>
+		
+		</annunci>
+		<prezzi>
+			<prezzo> <val> </val> <data></data><url></url>
+			</prezzo>
+		</prezzi>
+		<locali>
+		</locali>
+		<metri>
+		</metri>
+		
+		<piano>
+		</piano>
+		<via></via>
+		
+	</casa>
+
+
+
+</case>
